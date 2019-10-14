@@ -13,6 +13,9 @@ MobaXterm则是一行一个会话
 ~~正确地显示图标~~ (我不知道图标ID)  
 ~~自动输出ini文件~~ (懒,也不是很会写)
 
+## TODO
+* 我有一个大胆的想法 `SecureCRT` 配置文件也是ini 并且也是按照目录来分的,同时 `MobaXterm` 也支持扫描 `SecureCRT` 的配置文件,甚至是自动的,那么为什么不尝试把XSH直接转换到 `SecureCRT` 的ini文件呢?
+
 ## 如何使用?
 为了保证转换稳定性,先用 `EncodingConvert.py` 转换一下编码 ,转换成UTF-8  
 脚本需要 `Python3` 和 `ConfigParser` (所以pip方面你懂的)
